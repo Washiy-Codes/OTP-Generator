@@ -37,7 +37,7 @@ When the "Generate OTP" button is clicked:
 ---
 ## 🌐 Live Demo
 👉 **Try it out here:**  
-[🔗 Random Quote Generator](https://washiy-codes.github.io/OTP-Generator/)
+[🔗 OTP Generator](https://washiy-codes.github.io/OTP-Generator/)
 
 ---
 
