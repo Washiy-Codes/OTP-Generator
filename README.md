@@ -35,5 +35,3 @@ When the "Generate OTP" button is clicked:
 - After expiry, a message prompts the user to generate a new OTP
 
 ---
-
-## 📂 Project Structure
