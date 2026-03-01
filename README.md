@@ -1,16 +1,39 @@
-# React + Vite
+# 🔐 OTP Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive One-Time Password (OTP) Generator built with React.  
+The application generates a secure 6-digit OTP and includes a real-time expiration countdown for enhanced usability and security simulation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔢 Generates a 6-digit random OTP (digits 1–9)
+- ⏳ Real-time countdown timer
+- 🔒 Auto-disables button while OTP is active
+- 📢 Accessible live timer updates (`aria-live`)
+- 🎨 Clean and responsive UI design
+- ⚡ Prevents layout shift for smooth UX
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Hooks: `useState`, `useEffect`)
+- JavaScript (ES6+)
+- CSS3 (Custom properties & responsive layout)
+- VS Code
+
+---
+
+## 📸 Preview
+
+When the "Generate OTP" button is clicked:
+
+- A 6-digit OTP is displayed
+- A countdown timer starts (e.g., *Expires in: 5 seconds*)
+- The button is disabled until expiration
+- After expiry, a message prompts the user to generate a new OTP
+
+---
+
+## 📂 Project Structure
