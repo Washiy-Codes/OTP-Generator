@@ -1,18 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
-export const OTPGenerator = () => {
+const OTPGenerator = () => {
   const [password, setPassword] = useState("");
   const [timeLeft, setTimeLeft] = useState(0);
 
   const handleClick = () => {
-    // Generate 6-digit OTP (digits 1–9)
     let newPassword = "";
     for (let i = 0; i < 6; i++) {
       newPassword += Math.floor(Math.random() * 9) + 1;
     }
 
     setPassword(newPassword);
-    setTimeLeft(5); // 10 seconds expiry
+    setTimeLeft(5);
 
   };
 
@@ -27,7 +26,12 @@ export const OTPGenerator = () => {
     return () => clearTimeout(timer);
   }, [timeLeft]);
 
-  
+  const prevTimeLeftRef = useRef(timeLeft);
+
+  useEffect(() => {
+    prevTimeLeftRef.current = timeLeft;
+  }, [timeLeft]);
+
   return (
     <div className="container">
 
