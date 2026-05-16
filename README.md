@@ -16,7 +16,7 @@ The application generates a secure 6-digit OTP and includes a real-time expirati
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - React (Hooks: `useState`, `useEffect`)
 - JavaScript (ES6+)
@@ -25,7 +25,7 @@ The application generates a secure 6-digit OTP and includes a real-time expirati
 
 ---
 
-## 📸 Preview
+##  Preview
 
 When the "Generate OTP" button is clicked:
 
@@ -35,9 +35,9 @@ When the "Generate OTP" button is clicked:
 - After expiry, a message prompts the user to generate a new OTP
 
 ---
-## 🌐 Live Demo
-👉 **Try it out here:**  
-[🔗 OTP Generator](https://washiy-codes.github.io/OTP-Generator/)
+##  Live Demo
+ **Try it out here:**  
+[ OTP Generator](https://washiy-codes.github.io/OTP-Generator/)
 
 ---
 
