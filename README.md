@@ -20,7 +20,6 @@ The application generates a secure 6-digit OTP and includes a real-time expirati
 - React (Hooks: `useState`, `useEffect`)
 - JavaScript (ES6+)
 - CSS3 (Custom properties & responsive layout)
-- VS Code
 
 ---
 
