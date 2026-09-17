@@ -31,9 +31,5 @@ When the "Generate OTP" button is clicked:
 - After expiry, a message prompts the user to generate a new OTP
 
 ---
-##  Live Demo
- **Try it out here:**  
-[ OTP Generator](https://washiy-codes.github.io/OTP-Generator/)
 
----
 
