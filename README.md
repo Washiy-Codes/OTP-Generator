@@ -24,6 +24,11 @@ The application generates a secure 6-digit OTP and includes a real-time expirati
 ---
 
 ##  Preview
+When the "Generate OTP" button is clicked:
+- A 6-digit OTP is displayed
+- A countdown timer starts (e.g., *Expires in: 5 seconds*)
+- The button is disabled until expiration
+- After expiry, a message prompts the user to generate a new OTP
 
 ---
 ##  Live Demo
