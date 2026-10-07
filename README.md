@@ -1,3 +1,6 @@
+# OTP Generator
+A clean and responsive One-Time Password (OTP) Generator built with React.  
+The application generates a secure 6-digit OTP and includes a real-time expiration countdown for enhanced usability and security simulation.
 
 
 ---
