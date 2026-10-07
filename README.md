@@ -5,7 +5,15 @@ The application generates a secure 6-digit OTP and includes a real-time expirati
 
 
 ---
+##  Features
+-  Generates a 6-digit random OTP (digits 1–9)
+-  Real-time countdown timer
+-  Auto-disables button while OTP is active
+-  Accessible live timer updates (`aria-live`)
+-  Clean and responsive UI design
+-  Prevents layout shift for smooth UX
 
+---
 
 
 ##  Built With
